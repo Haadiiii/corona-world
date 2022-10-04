@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(77, 39, 39);
+}
+
+.head{
+    text-align: center;
+    background-color: rgb(139, 104, 122);
+    width: 50%;
+    margin-left: 23rem;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    margin-left: 23rem;
+    margin-top: 3rem;
+}
+
+.table{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.table-list{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    text-align: start;
+    width: 40%;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: rgb(139, 104, 122);
+    padding: 10px;
+    
+}
