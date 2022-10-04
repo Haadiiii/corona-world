@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: brown;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 290px);
+  margin-top: 20rem;
+  justify-content: center;
+  border: 1px solid black;
+  box-shadow: 0 5px 5px 5px rgb(48, 36, 36);
+}
+
+.mb-2 {
+  text-align: right;
+  background-image: url("https://www.gard.no/Content/29112072/cache=20203101143212/transformation=scale10000x810/Coronavirus_people.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  padding: 10px;
+  height: 40vh;
+  opacity: 0.8;
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+.body {
+  background-image: url("https://www.efsa.europa.eu/sites/default/files/styles/lg_col_12_16x9_fallback/public/news/coronavirus.jpg.jpeg?itok=gp1EWvJD");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  padding: 10px;
+  height: 80vh;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.card-t {
+  background-color: rgb(35, 35, 32);
+}
