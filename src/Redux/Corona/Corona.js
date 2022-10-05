@@ -15,7 +15,6 @@ export const getCorona = createAsyncThunk(
     const response = await fetch(url);
     const data = await response.json();
     const coronas = Object.keys(data)
-      .slice(0, 20)
       .map((key) => {
         const virus = data[key].All;
         return {
@@ -28,13 +27,14 @@ export const getCorona = createAsyncThunk(
   },
 );
 
+const urlMain = 'https://covid-api.mmediagroup.fr/v1/cases?country=';
+
 export const getCoronaByName = (country) => async (dispatch) => {
   const response = await fetch(
-    `https://covid-api.mmediagroup.fr/v1/cases?country=${country}&status=deaths`,
+    `${urlMain}${country}`,
   );
   const data = await response.json();
-  dispatch({ type: CORONA_BY_COUNTRY_SUCCESS, payload: data });
-  return data;
+  dispatch({ type: CORONA_BY_COUNTRY_SUCCESS, payload: data.All });
 };
 
 const coronaReducer = (state = initialState, action) => {

@@ -9,9 +9,6 @@ const Details = () => {
   const { country } = useParams();
   const dispatch = useDispatch();
   useEffect(() => {
-    if (coronaById.length === 0) {
-      dispatch(getCoronaByName(country));
-    }
     dispatch(getCoronaByName(country));
   }, []);
 
@@ -21,53 +18,65 @@ const Details = () => {
     <div>
       <NavLink to="/">
         {' '}
-        <div>{'<'}</div>
+        <div className="back"><img src="https://img.icons8.com/ios-filled/50/FD7E14/reply-arrow.png" alt="" /></div>
         {' '}
       </NavLink>
-      <img src="https://www.efsa.europa.eu/sites/default/files/styles/lg_col_12_16x9_fallback/public/news/coronavirus.jpg.jpeg?itok=gp1EWvJD" alt="" />
-      <h1 className="head">{coronaById.All.country}</h1>
-      {/* <div className="table">
+      <div className="center">
+        <img
+          src="https://www.efsa.europa.eu/sites/default/files/styles/lg_col_12_16x9_fallback/public/news/coronavirus.jpg.jpeg?itok=gp1EWvJD"
+          alt=""
+        />
+      </div>
+      <h1 className="head">{coronaById.country}</h1>
+      <div className="table">
         <div className="table-list">
           <h3> Confirmed </h3>
-          <div>{coronaById.All.confirmed}</div>
+          <div>{coronaById.confirmed}</div>
         </div>
         <div className="table-list">
           <h3> Deaths </h3>
-          <div>{coronaById.All.deaths}</div>
+          <div>{coronaById.deaths}</div>
         </div>
         <div className="table-list">
           <h3> Recovered </h3>
-          <div>{coronaById.All.recovered}</div>
+          <div>{coronaById.recovered}</div>
         </div>
         <div className="table-list">
           <h3> Area </h3>
-          <div>{coronaById.All.sq_km_area}</div>
+          <div>
+            {coronaById.sq_km_area}
+            {' '}
+            km/sq
+          </div>
         </div>
         <div className="table-list">
           <h3> Continent </h3>
-          <div>{coronaById.All.continent}</div>
+          <div>{coronaById.continent}</div>
         </div>
         <div className="table-list">
           <h3> Abbreviation </h3>
-          <div>{coronaById.All.abbreviation}</div>
+          <div>{coronaById.abbreviation}</div>
         </div>
         <div className="table-list">
           <h3> Location </h3>
-          <div>{coronaById.All.location}</div>
+          <div>{coronaById.location}</div>
         </div>
         <div className="table-list">
-          <h3> Latitude </h3>
-          <div>{coronaById.All.lat}</div>
+          <h3> Capital city </h3>
+          <div>{coronaById.capital_city}</div>
         </div>
         <div className="table-list">
-          <h3> Longitude </h3>
-          <div>{coronaById.All.long}</div>
+          <h3> life_expectancy </h3>
+          <div>
+            {coronaById.life_expectancy}
+            %
+          </div>
         </div>
         <div className="table-list">
           <h3> Updated Date </h3>
-          <div>{coronaById.All.updated}</div>
-        </div> */}
-      {/* </div> */}
+          <div>{coronaById.updated}</div>
+        </div>
+      </div>
     </div>
   );
 };
