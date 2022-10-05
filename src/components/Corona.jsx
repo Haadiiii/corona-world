@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { Card } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import uuid from 'react-uuid';
@@ -18,28 +17,32 @@ const Corona = () => {
   }, []);
   console.log(coronaArray);
   return (
-    <div className="container">
-      {coronaArray.map((item) => (
-        <Card
-          key={uuid()}
-          style={{ width: '18rem' }}
-          className="mb-2"
-          onClick={() => navigate(`/Details/${item.country}`)}
-        >
-          <Card.Header>{'>'}</Card.Header>
-          <Card.Body className="body">
-            <div className="card-t">
-              <Card.Title>
-                {item.country}
-                {' '}
-              </Card.Title>
-              <Card.Text>
-                {item.population}
-              </Card.Text>
+    <div>
+      <div className="imagess"><img src="https://www.afge.org/link/c5634a73b41b4dd8a3f48e6768a6422d.aspx" alt="" /></div>
+      <div className="container">
+        {coronaArray.map((item) => (
+          <div
+            key={uuid()}
+            style={{ width: '18rem' }}
+            className="mb-2"
+            onClick={() => navigate(`/Details/${item.country}`)}
+          >
+            <h2>&#10148;</h2>
+            <div className="body">
+              <div className="card-t">
+                <h3>
+                  {item.country}
+                  {' '}
+                </h3>
+                <p>
+                  Population:
+                  {item.population}
+                </p>
+              </div>
             </div>
-          </Card.Body>
-        </Card>
-      ))}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

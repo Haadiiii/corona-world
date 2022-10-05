@@ -1,0 +1,31 @@
+
+li {
+  list-style: none;
+}
+
+li img {
+  width: 70%;
+  margin-top: 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #490f4f;
+  color: #fff;
+}
+
+h3 {
+  margin-left: 6rem;
+  margin-top: 2rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  background-color: #490f4f;
+}
