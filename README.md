@@ -13,11 +13,14 @@
 - Vite
 - Redux
   
- ## Screenshots
-![](./src/assets/Screenshot%202022-10-06%20130315.png)
+
+### Click on picture to watch a description about the project:
+> if the vidoe dosent start click on Download.
+
+[![Watch the video by clicking on pic](./src/assets/Screenshot%202022-10-06%20130315.png)](https://drive.google.com/file/d/1K-bGKXMSrmv-qiFFvko10177OQ7tlWux/view?usp=sharing)
 ![](./src/assets/Screenshot%202022-10-06%20130423.png)
 
-## Live Demo (if available)
+## Live Demo
 
 [Live](https://covid-19-worlds.netlify.app/)
 
