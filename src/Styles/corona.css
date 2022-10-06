@@ -9,7 +9,6 @@
   .container {
     display: grid;
     grid-template-columns: repeat(2, 290px);
-    margin-top: 1rem;
     justify-content: center;
   }
 
@@ -17,24 +16,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
   }
 
   .imagess img {
     display: block;
-    width: 90%;
+    width: 100%;
     height: 50%;
+  }
+
+  .stats {
+    width: 100%;
+    color: #fff;
+    font-size: 32px;
+    padding: 10px 10px 10px 60px;
+    background-color: rgb(105, 1, 105);
+    opacity: 0.6;
   }
 
   .mb-2 {
     text-align: right;
     border-radius: 10px;
     padding: 10px;
-    height: 55vh;
+    height: 50vh;
     color: aliceblue;
     font-size: 1.5rem;
-
-    /* margin-top: 8rem; */
     background-color: rgb(105, 1, 105);
   }
 
@@ -46,12 +51,11 @@
 
   .body {
     background-image: url("https://www.efsa.europa.eu/sites/default/files/styles/lg_col_12_16x9_fallback/public/news/coronavirus.jpg.jpeg?itok=gp1EWvJD");
-    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
     padding: 10px;
-    height: 45vh;
+    height: 40vh;
     opacity: 0.7;
     color: #fff;
     border: 1px solid black;
@@ -61,7 +65,6 @@
     color: chocolate;
     margin-bottom: -0.2rem;
     padding: 10px;
-    width: 100%;
     cursor: pointer;
   }
 
@@ -82,23 +85,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
   }
 
   .imagess img {
     display: block;
-    width: 50%;
+    width: 70%;
     height: 50%;
-    border-radius: 30%;
+  }
+
+  .stats {
+    width: 100%;
+    color: #fff;
+    font-size: 32px;
+    padding: 10px 10px 10px 60px;
+    background-color: rgb(105, 1, 105);
+    opacity: 0.6;
   }
 
   .container {
     display: grid;
-    grid-template-columns: repeat(4, 320px);
-    margin-top: 2rem;
+    grid-template-columns: repeat(5, 300px);
     justify-content: center;
-    border: 1px solid black;
-    padding: 30px;
   }
 
   .mb-2 {
@@ -108,8 +115,6 @@
     height: 55vh;
     color: aliceblue;
     font-size: 1.5rem;
-
-    /* margin-top: 8rem; */
     background-color: rgb(105, 1, 105);
   }
 

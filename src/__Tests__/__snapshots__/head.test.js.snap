@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details renders correctly 1`] = `
+<div
+  className="nav"
+>
+  <h3>
+    COVID-19
+  </h3>
+  <div>
+    <ul>
+      <li>
+        <img
+          alt=""
+          src="https://img.icons8.com/external-anggara-glyph-anggara-putra/32/FFFFFF/external-mic-basic-user-interface-anggara-glyph-anggara-putra.png"
+        />
+      </li>
+      <li>
+        <img
+          alt=""
+          src="https://img.icons8.com/external-anggara-glyph-anggara-putra/32/FFFFFF/external-setting-user-interface-basic-anggara-glyph-anggara-putra.png"
+        />
+      </li>
+    </ul>
+  </div>
+</div>
+`;
