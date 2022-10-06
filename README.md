@@ -1,62 +1,63 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# corona-world
 
 > Description the project.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- React
+- Javascript
+- Vite
+- Redux
+  
 
-## Live Demo (if available)
+### Click on picture to watch a description about the project:
+> if the vidoe dosent start click on Download.
 
-[Live Demo Link](https://livedemo.com)
+[![Watch the video by clicking on pic](./src/assets/Screenshot%202022-10-06%20130315.png)](https://drive.google.com/file/d/1K-bGKXMSrmv-qiFFvko10177OQ7tlWux/view?usp=sharing)
+![](./src/assets/Screenshot%202022-10-06%20130423.png)
+
+## Live Demo
+
+[Live](https://covid-19-worlds.netlify.app/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- git
+- Broswer to Display
+- IDE to run and edit the code
+- Vite
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- open a terminal
+- run `https://github.com/Haadiiii/corona-world.git`
+- run ` cd corona-world`
+- run `npm install`
+- run `npm run dev` your default browser should load automatically with the app, if it doesn't do next and final step.
+- Enter `http://127.0.0.1:5173/` in your browser
 
 ## Authors
 
-👤 **Author1**
+👤 **Haamid Ali**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Haadiiii](https://github.com/Haadiiii)
+- Twitter: [@HaaDiii_99](https://twitter.com/HaaDiii_99)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hamid-ali-01a872213/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Haadiiii/corona-world/issues).
 
 ## Show your support
 
@@ -64,9 +65,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) on Behance.
+
 
 ## 📝 License
 
