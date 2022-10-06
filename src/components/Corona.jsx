@@ -19,6 +19,7 @@ const Corona = () => {
   return (
     <div>
       <div className="imagess"><img src="https://www.afge.org/link/c5634a73b41b4dd8a3f48e6768a6422d.aspx" alt="" /></div>
+      <div className="stats"><p>Stats By country</p></div>
       <div className="container">
         {coronaArray.map((item) => (
           <div
