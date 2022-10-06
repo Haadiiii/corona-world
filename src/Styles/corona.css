@@ -12,6 +12,33 @@
     justify-content: center;
   }
 
+  .search-Bar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0%;
+    opacity: 0.9;
+  }
+
+  .search-Bar input {
+    padding: 5px;
+    border: none;
+  }
+
+  .field {
+    background-color: #fff;
+  }
+
+  .search-Bar select {
+    padding: 5px;
+    border: none;
+  }
+
+  .icon {
+    color: rgb(11, 10, 10);
+    border: none;
+  }
+
   .imagess {
     display: flex;
     justify-content: center;
