@@ -12,8 +12,6 @@ const Details = () => {
     dispatch(getCoronaByName(country));
   }, []);
 
-  console.log(coronaById);
-
   return (
     <div>
       <NavLink to="/">
@@ -71,6 +69,10 @@ const Details = () => {
             {coronaById.life_expectancy}
             %
           </div>
+        </div>
+        <div className="table-list">
+          <h3> Population </h3>
+          <div>{coronaById.population}</div>
         </div>
         <div className="table-list">
           <h3> Updated Date </h3>
