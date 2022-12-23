@@ -2,7 +2,7 @@
 
 # corona-world
 
-> Description the project.
+this is a project that shows the covid-19 cases in the world and in each country, it shows the number of cases, deaths, and recovered cases. And it shows the number of cases in the last 24 hours.
 
 
 ## Built With
